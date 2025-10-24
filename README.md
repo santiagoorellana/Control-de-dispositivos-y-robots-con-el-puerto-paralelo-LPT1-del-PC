@@ -22,9 +22,10 @@
 <h2>Reloj con pantalla 7 segmentos</h2>
 
 <p>En tiempo libre decidí practicar la creación de subprocesos con el lenguaje C++ creando una aplicación para controlar por puerto paralelo LPT1 de la computadora, una pantalla con elementos 7 segmentos. Debido a que no contaba con un decodificador 7 segmento, decidí encender los 7 segmentos alternándolos a alta velocidad, de manera que los primeros 7 bits del puerto de datos se emplearon para crear el número en las pantallas 7 segmentos y lso primero 4 bits del puerto de control se emplearon para encender o apagar cada una de las pantallas 7 segmentos. De esta forma, para representar la hora en la pantalla se debia encender de forma alternada y con gran velocidad, cada uno de los elementos 7 segmentos de cada número. La aplicación de consola se programó utilizando el IDE Dev C++ y se ejecutó en sistema operativo Windows XP.</p>
-<img width="2280" alt="reloj con pantalla 7 segmentos" src="https://github.com/user-attachments/assets/bb04de0a-702e-428f-a396-6b8f3b0e6c6c" />
+<img width="567" alt="reloj con pantalla 7 segmentos" src="https://github.com/user-attachments/assets/bb04de0a-702e-428f-a396-6b8f3b0e6c6c" />
 
 <p>Un subproceso se encarga de controlar la representación de los números en la pantalla alternando rapidamente el encendido y apagado de cada elemento 7 segmentos y colocando en el bus de datos la combinación correspondiente al dígito que se debe representar en cada elemento 7 segmento. Mientras, el proceso principal atiende la consola, los comandos del usuario y optiene regularmente la hora del sistema para enviarsela al subproceso cuando cambie la hora.</p>
+
 
 
 
