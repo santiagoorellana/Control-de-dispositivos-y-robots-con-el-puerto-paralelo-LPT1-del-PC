@@ -1,5 +1,5 @@
 
-<h1>Proyectos de robótica y electrónica</h1>
+<h1>Control de dispositivos y robots con el puerto paralelo LPT1 del PC</h1>
 
 <h2>Vehículo controlado por PC mediante puerto LPT1</h2>
 
@@ -25,7 +25,8 @@
 <img width="568" alt="reloj con pantalla 7 segmentos b" src="https://github.com/user-attachments/assets/bc4d9a83-43fa-4342-8ee8-b1ecce2edf49" />
 
 <p>Un subproceso se encarga de controlar la representación de los números en la pantalla alternando rapidamente el encendido y apagado de cada elemento 7 segmentos y colocando en el bus de datos la combinación correspondiente al dígito que se debe representar en cada elemento 7 segmento. Mientras, el proceso principal atiende la consola, los comandos del usuario y optiene regularmente la hora del sistema para enviarsela al subproceso cuando cambie la hora.</p>
-
+<br>
+La Habana, Cuba, 2007 - 2008
 
 
 
